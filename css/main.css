@@ -51,6 +51,11 @@ table {
   src: url('../fonts/HelveticaNeueLight.otf');
 }
 
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url('../fonts/SourceCodePro-Regular.otf');
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -166,7 +171,12 @@ h3,h4,h2,h5,h1 {
   color: #ffffff;
 }
 
+h2 {
+  font-family: 'SourceCodePro';
+}
+
 h1 {
+  font-family: 'SourceCodePro';
   font-size: 43px;
   line-height: 120%;
 }
@@ -239,7 +249,7 @@ img {
 .header .navigation ul li a {
   display: block;
   color: #F2F2F2;
-  font-family: 'HelveticaNeueMedium';
+  font-family: 'SourceCodePro';
 }
 
 .header .align-center {
