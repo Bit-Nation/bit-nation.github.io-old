@@ -159,7 +159,7 @@ body {
 }
 
 .cta:hover {
-  box-shadow: 0 0 5px 2px rgba(0,255,229,0.5);
+  box-shadow: 0 0 5px 2px rgba(65,182,230,0.5);
 }
 
 .cta:focus {
@@ -395,7 +395,7 @@ img {
 }
 
 .bitnation-features-main .features-box-main .features-box a {
-  color: #08998a;
+  color: #41B6E6;
   font-size: 13px;
 }
 
@@ -841,7 +841,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .modal .modal-body .token-check-condition input[type="checkbox"]:checked + label:before {
-  background: #08998a;
+  background: #41B6E6;
 }
 
 .modal .modal-body .token-check-condition input[type="checkbox"]:checked + label:after {
@@ -874,7 +874,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .modal .modal-body .token-check-condition label span a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 .modal .content {
@@ -1203,7 +1203,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .modal a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 .c5.c1,.c0 {
@@ -1241,7 +1241,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .faq-main .faq-main-content a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 .faq-main .faq-main-content .sections {
@@ -1295,7 +1295,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 .timeline ol::before {
   content: '';
   height: 1px;
-  background: #089a8b;
+  background: #41B6E6;
   position: absolute;
   top: 50%;
   width: 97%;
@@ -1576,7 +1576,7 @@ button:disabled:hover {
 }
 
 .token-address a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 @media screen and (max-width: 767px) {
@@ -1794,7 +1794,7 @@ button:disabled:hover {
 }
 
 .privacy-main-content a,.terms-main-content a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 .privacy-main-content h2,.terms-main-content h2 {
@@ -2006,7 +2006,7 @@ code {
 }
 
 .purchase-agreement-content a {
-  color: #08998a;
+  color: #41B6E6;
 }
 
 .purchase-agreement-main {
