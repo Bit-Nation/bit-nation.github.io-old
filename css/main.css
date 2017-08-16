@@ -537,6 +537,13 @@ img {
   background-size: contain;
 }
 
+.social-section .social-icon-group .icon-angel {
+  width: 60px;
+  height: 60px;
+  background: url("../img/icon-angel.png") no-repeat;
+  background-size: contain;
+}
+
 .social-section .social-icon-group .icon-slack {
   width: 64px;
   height: 64px;
