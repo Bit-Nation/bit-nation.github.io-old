@@ -17,7 +17,10 @@ body {
 
 p {
     text-align: justify;
-    text-justify: inter-word;
+}
+
+p .center {
+    text-align: center;
 }
 
 ol,ul {
