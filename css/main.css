@@ -19,7 +19,7 @@ p {
     text-align: justify;
 }
 
-p .center {
+p.center {
     text-align: center;
 }
 
