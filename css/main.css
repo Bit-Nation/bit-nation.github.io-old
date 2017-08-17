@@ -975,7 +975,15 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   }
 }
 
+img.normal-bitnation-logo {
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 767px) {
+  img.normal-bitnation-logo {
+    margin-bottom: 0px;
+  }
+  
   .token-main .token-content {
     padding: 40px 0;
   }
