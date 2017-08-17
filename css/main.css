@@ -19,10 +19,6 @@ p {
     text-align: justify;
 }
 
-p.center {
-    text-align: center;
-}
-
 ol,ul {
   list-style: none;
 }
