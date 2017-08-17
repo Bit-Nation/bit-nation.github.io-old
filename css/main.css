@@ -1013,6 +1013,10 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
     background-position: center center;
     background-size: cover;
   }
+  
+  .header.open {		
+    background-color: #41b6e6;
+  }
 
   .cta {
     width: 100%;
