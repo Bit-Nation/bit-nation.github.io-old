@@ -1226,69 +1226,6 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   margin-top: 10px;
 }
 
-/* Faq page related css */
-
-.faq-main .faq-main-content {
-  padding-top: 132px;
-  text-align: left;
-}
-
-@media screen and (max-width: 767px) {
-  .faq-main .faq-main-content {
-    padding-top: 55px;
-  }
-}
-
-.faq-main .faq-main-content .faq-header {
-  padding: 40px 0 55px;
-}
-
-.faq-main .faq-main-content .faq-header h2 {
-  margin-bottom: 10px;
-}
-
-.faq-main .faq-main-content h4 {
-  font-family: 'HelveticaNeue';
-}
-
-.faq-main .faq-main-content p {
-  font-size: 16px;
-}
-
-.faq-main .faq-main-content a {
-  color: #41B6E6;
-}
-
-.faq-main .faq-main-content .sections {
-  margin-bottom: 30px;
-}
-
-.faq-main .introduction-banner {
-  background-image: none;
-  height: auto;
-}
-
-.faq-main .header {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 15px 0;
-}
-
-.faq-main .header .navigation {
-  background-color: #000000;
-  top: 80px;
-}
-
-@media screen and (max-width: 767px) {
-  .faq-main #nav-icon {
-    top: 35px;
-  }
-}
-
-.faq-body {
-  background-image: none;
-  background: #1C1D21;
-}
-
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
