@@ -368,15 +368,15 @@ img {
 
 .bitnation-features-main .features-box-main .icon-main .icon-quantum {
   display: inline-block;
-  width: 29px;
-  height: 29px;
+  width: 35px;
+  height: 35px;
   background: url("../img/icon-quantum.png") no-repeat;
   background-size: contain;
 }
 
 .bitnation-features-main .features-box-main .icon-main .icon-intuitive {
   display: inline-block;
-  width: 36px;
+  width: 35px;
   height: 35px;
   background: url("../img/icon-intuitive.png") no-repeat;
   background-size: contain;
@@ -384,8 +384,8 @@ img {
 
 .bitnation-features-main .features-box-main .icon-main .icon-governance {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   background: url("../img/icon-governance.png") no-repeat;
   background-size: contain;
 }
@@ -922,11 +922,11 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .pre-sale-phase .icon-main,.token-phase-1 .icon-main {
-  width: 45px;
+  width: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 45px;
+  height: 64px;
   border-radius: 50%;
   background-color: #12121B;
   margin: 0 auto 10px;
@@ -934,24 +934,24 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
 .pre-sale-phase .icon-main .icon-equal,.token-phase-1 .icon-main .icon-market-demand {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 35px;
+  height: 35px;
   background: url("../img/icon-market-demand.png") no-repeat;
   background-size: 100%;
 }
 
 .pre-sale-phase .icon-main .icon-broad,.token-phase-1 .icon-main .icon-fair {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 35px;
+  height: 35px;
   background: url(../img/icon-fair.png) no-repeat;
   background-size: 100%;
 }
 
 .pre-sale-phase .icon-main .icon-transparent,.token-phase-1 .icon-main .icon-power {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 35px;
+  height: 35px;
   background: url(../img/icon-power-pangea.png) no-repeat;
   background-size: 100%;
 }
