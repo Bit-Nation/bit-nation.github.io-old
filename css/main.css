@@ -19,6 +19,14 @@ p {
     text-align: justify;
 }
 
+.custom-blue {
+    color: #41B6E6;
+}
+
+.custom-dark-blue {
+    color: #003c54;
+}
+
 ol,ul {
   list-style: none;
 }
