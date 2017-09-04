@@ -987,6 +987,10 @@ img.normal-bitnation-logo {
 }
 
 @media screen and (max-width: 767px) {
+  .header .logo a img {
+    height: 45px;
+  }
+
   img.normal-bitnation-logo {
     margin-bottom: 0px;
   }
@@ -1075,7 +1079,7 @@ img.normal-bitnation-logo {
   }
 
   .header .logo a img {
-    width: 40px;
+    width: 110px;
     height: 40px;
   }
 
