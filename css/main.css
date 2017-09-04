@@ -2233,8 +2233,33 @@ code {
 
 .pangea-screenshots-main h2 {
   color: #41B6E6;
+  margin-bottom: 55px;
 }
 
+.pangea-screenshot {
+  width: 150%;
+}
+
+
+/* TECHNOLOGIES SECTION */
+
+.technologies-main h2 {
+  /*color: #41B6E6;*/
+  margin-bottom: 55px;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech-logo {
+  width: 100px;
+}
+
+/* VIDEO SECTION */
 
 .video-section-main {
   background-color: #1C1D21;
