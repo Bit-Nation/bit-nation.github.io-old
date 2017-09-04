@@ -994,7 +994,7 @@ img.normal-bitnation-logo {
   img.normal-bitnation-logo {
     margin-bottom: 0px;
   }
-  
+
   .token-main .token-content {
     padding: 40px 0;
   }
@@ -1028,8 +1028,8 @@ img.normal-bitnation-logo {
     background-position: center center;
     background-size: cover;
   }
-  
-  .header.open {		
+
+  .header.open {
     background-color: #41b6e6;
   }
 
@@ -2219,6 +2219,22 @@ code {
     padding: 0;
   }
 }
+
+
+/* PANGEA SCREENSHOTS SECTION */
+
+.section {
+  padding: 100px 0;
+}
+
+.pangea-screenshots-main {
+  background: #fff;
+}
+
+.pangea-screenshots-main h2 {
+  color: #41B6E6;
+}
+
 
 .video-section-main {
   background-color: #1C1D21;
