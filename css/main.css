@@ -2227,13 +2227,16 @@ code {
   padding: 100px 0;
 }
 
+.section-title {
+  margin-bottom: 55px;
+}
+
 .pangea-screenshots-main {
   background: #fff;
 }
 
 .pangea-screenshots-main h2 {
-  color: #41B6E6;
-  margin-bottom: 55px;
+  color: #003c54;
 }
 
 .screenshots-container {
@@ -2262,17 +2265,16 @@ code {
 
 /* TECHNOLOGIES SECTION */
 
-.technologies-main h2 {
-  /*color: #41B6E6;*/
-  margin-bottom: 55px;
-}
-
 .technologies-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+.technologies-main h2 {
+  color: #41B6E6;
 }
 
 .tech-logo-box {
