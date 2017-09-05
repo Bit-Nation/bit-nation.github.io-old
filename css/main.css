@@ -2272,7 +2272,6 @@ code {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
   margin: auto;
 }
 
@@ -2283,6 +2282,9 @@ code {
 .tech-logo {
   width: 100%;
 }
+
+
+
 
 /* VIDEO SECTION */
 
