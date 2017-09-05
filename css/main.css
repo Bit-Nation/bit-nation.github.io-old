@@ -68,16 +68,16 @@ table {
   src: url('../fonts/SourceCodePro-Regular.otf');
 }
 
-* {
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:after,:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
@@ -2236,9 +2236,28 @@ code {
   margin-bottom: 55px;
 }
 
-.pangea-screenshot {
-  width: 150%;
+.screenshots-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.screenshots-box {
+  width: 25%;
+}
+
+.screenshot {
+  width: 100%;
+  padding: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .screenshots-box {
+    width: 50%;
+  }
+}
+
 
 
 /* TECHNOLOGIES SECTION */
@@ -2251,12 +2270,18 @@ code {
 .technologies-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+.tech-logo-box {
+  margin: 15px;
 }
 
 .tech-logo {
-  width: 100px;
+  width: 100%;
 }
 
 /* VIDEO SECTION */
