@@ -2252,7 +2252,7 @@ code {
 
 .screenshot {
   width: 100%;
-  padding: 5%;
+  /*padding: 5%;*/
 }
 
 @media screen and (max-width: 767px) {
