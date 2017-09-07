@@ -817,6 +817,22 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   border: 0 none;
   border-top: 2px solid #000;
 }
+.modal .modal-body .form-group label,
+.modal .modal-body .form-group input,
+.modal .modal-body .form-group button {
+  display: block;
+  margin: auto;
+}
+
+.modal .modal-body .form-group label,
+.modal .modal-body .form-group input {
+  width: 100%;
+  margin: 0 0 16px 0;
+}
+
+.modal .modal-body .form-group label {
+  text-align: center;
+}
 
 .modal .modal-body .cta {
   width: 130px;

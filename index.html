@@ -71,7 +71,7 @@ TODO:
                 <h1 class="custom-blue">The Internet of Sovereignity</h1>
                 <div class="cta-group">
                     <a href="https://github.com/Bit-Nation/BITNATION-Pangea-react" class="cta" target="_blank">Reset The World</a>
-                    <a data-scroll="token-sale" href="#" class="cta">Get PAT</a>
+                    <a data-scroll="token-sale" href="#" class="cta">Token Sale</a>
                     <a data-scroll="social" href="#" class="cta">Join BITNATION</a>
                 </div>
                 <div class="news-logo-main">
@@ -463,10 +463,24 @@ TODO:
 <div id="buy-token" style="display: none;">
     <div class="modal-header text-center">
         <h3> BITNATION TOKENS </h3>
-        <p>Please read the PAT Token Purchase Agreement, Terms of Use and BITNATION.CO Technical White Paper and confirm the facts in the checkboxes below in order to proceed.</p>
+        <!-- <p>Please read the PAT Token Purchase Agreement, Terms of Use and BITNATION.CO Technical White Paper and confirm the facts in the checkboxes below in order to proceed.</p> -->
     </div>
     <div class="modal-body">
-        <div class="token-check-condition">
+      <form action="https://bitnation.us11.list-manage.com/subscribe/post" method="POST" class="validate" novalidate="" target="_blank">
+          <input type="hidden" name="u" value="913c7a1aa0e6577fc5a84cc41">
+          <input type="hidden" name="id" value="37a5583992">
+
+          <div class="form-group">
+                 <label for="subscribe">Sign up to receive more information about the Token Sale Event (TSE)</label>
+                 <input class="email form-input" type="email" name="MERGE0" id="MERGE0" value="" placeholder="Please enter your email address here">
+
+                 <button class="cta" name="subscribe" type="submit" value="Subscribe">Join</button>
+          </div>
+
+          <input type="hidden" name="ht" value="51168edeb5f147bfca265f813d673960b417eaa4:MTUwMzU3MjgyMS45MDYy">
+          <input type="hidden" name="mc_signupsource" value="hosted">
+      </form>
+        <!-- <div class="token-check-condition">
             <div class="row clearfix">
                 <div class="col">
                     <input id="a" class="accept" type="checkbox" name="vehicle" value="a"/>
@@ -495,7 +509,7 @@ TODO:
             <div class="row text-center">
                 <button id="token-purchase-agreement-continue" class="cta" disabled="disabled"> Continue </button>
             </div>
-        </div>
+        </div> -->
     </div>
 
 </div>
