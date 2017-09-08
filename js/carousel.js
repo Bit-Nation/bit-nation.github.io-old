@@ -1,4 +1,4 @@
-var images = ["img/ui-2-phone.png", "img/ui-3-phone.png"]
+var images = ["img/ui-01.jpg", "img/ui-02.jpg", "img/ui-03.jpg", "img/ui-04.jpg", "img/ui-05.jpg", "img/ui-06.jpg", "img/ui-07.jpg", "img/ui-08.jpg", "img/ui-09.jpg", "img/ui-10.jpg", "img/ui-11.jpg", "img/ui-12.jpg"]
 
 var current_index = 0
 
