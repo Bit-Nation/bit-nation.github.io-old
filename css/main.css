@@ -2295,7 +2295,15 @@ code {
 }
 
 .tech-logo-box {
-  margin: 29px;
+  margin: 27px;
+}
+
+.tech-logo-box:first-of-type {
+  margin-left: 0;
+}
+
+.tech-logo-box:last-of-type {
+  margin-right: 0;
 }
 
 .tech-logo {
