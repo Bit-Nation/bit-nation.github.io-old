@@ -178,6 +178,10 @@ body {
   outline: none;
 }
 
+.modal .modal-body .cta.cta-modal {
+  width: 100%;
+}
+
 h3,h4,h2,h5,h1 {
   font-family: 'HelveticaNeueLight';
   color: #ffffff;
