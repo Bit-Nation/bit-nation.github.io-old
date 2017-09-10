@@ -2237,7 +2237,9 @@ code {
 }
 
 
-/* PANGEA SCREENSHOTS SECTION */
+/*************************
+PANGEA SCREENSHOTS SECTION
+*************************/
 
 .section {
   padding: 100px 0;
@@ -2248,7 +2250,7 @@ code {
 }
 
 .pangea-screenshots-main {
-  background: #fff;
+  background: #f2f2f2;
 }
 
 .pangea-screenshots-main h2 {
@@ -2278,9 +2280,17 @@ code {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .screenshots-box {
+    width: 100%;
+  }
+}
 
 
-/* TECHNOLOGIES SECTION */
+/*******************
+TECHNOLOGIES SECTION
+*******************/
+
 
 .technologies-container {
   display: flex;
