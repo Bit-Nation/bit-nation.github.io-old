@@ -402,7 +402,7 @@ img {
   font-size: 13px;
 }
 
-.bitnation-features-main .features-box-main .feat-more-info {
+.feat-more-info {
   margin-top: 65px;
 }
 
@@ -2259,7 +2259,6 @@ PANGEA SCREENSHOTS SECTION
 
 .pangea-screenshots-main h2 {
   color: #003c54;
-  /*color: #41B6E6;*/
 }
 
 .screenshots-container {
@@ -2277,7 +2276,12 @@ PANGEA SCREENSHOTS SECTION
 
 .screenshot {
   width: 100%;
-  /*padding: 5%;*/
+}
+
+.pangea-screenshots-main .feat-more-info .cta {
+  background: transparent;
+  color: #003c54;
+  border-color: #003c54;
 }
 
 @media screen and (max-width: 767px) {
