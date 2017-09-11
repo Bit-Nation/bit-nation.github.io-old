@@ -2254,11 +2254,12 @@ PANGEA SCREENSHOTS SECTION
 }
 
 .pangea-screenshots-main {
-  background: #f2f2f2;
+  background: #ececec;
 }
 
 .pangea-screenshots-main h2 {
   color: #003c54;
+  /*color: #41B6E6;*/
 }
 
 .screenshots-container {
@@ -2271,6 +2272,7 @@ PANGEA SCREENSHOTS SECTION
 .screenshots-box {
   width: 25%;
   margin: auto;
+  padding: 10px;
 }
 
 .screenshot {
