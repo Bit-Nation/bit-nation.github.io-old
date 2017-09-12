@@ -603,7 +603,7 @@ img {
 .subscriber-section .cta {
   margin-left: -5px;
   position: absolute;
-  right: 0;
+  right: 85px;
   bottom: 0;
 }
 
@@ -999,6 +999,10 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
   .subscriber-section input[type="text"],  .subscriber-section input[type="email"] {
     width: 100%;
+  }
+
+  .subscriber-section .cta {
+    right: 0;
   }
 }
 
