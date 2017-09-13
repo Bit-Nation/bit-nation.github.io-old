@@ -2262,7 +2262,7 @@ PANGEA SCREENSHOTS SECTION
 }
 
 .pangea-screenshots-main h2 {
-  color: #41B6E6;
+  color: #003c54;
 }
 
 .screenshots-container {
@@ -2284,8 +2284,8 @@ PANGEA SCREENSHOTS SECTION
 
 .pangea-screenshots-main .feat-more-info .cta {
   background: transparent;
-  color: #41B6E6;
-  border-color: #41B6E6;
+  color: #003c54;
+  border-color: #003c54;
 }
 
 @media screen and (max-width: 767px) {
