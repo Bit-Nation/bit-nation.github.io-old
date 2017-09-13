@@ -603,7 +603,7 @@ img {
 .subscriber-section .cta {
   margin-left: -5px;
   position: absolute;
-  right: 0;
+  right: 85px;
   bottom: 0;
 }
 
@@ -999,6 +999,10 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
   .subscriber-section input[type="text"],  .subscriber-section input[type="email"] {
     width: 100%;
+  }
+
+  .subscriber-section .cta {
+    right: 0;
   }
 }
 
@@ -2258,7 +2262,7 @@ PANGEA SCREENSHOTS SECTION
 }
 
 .pangea-screenshots-main h2 {
-  color: #003c54;
+  color: #41B6E6;
 }
 
 .screenshots-container {
@@ -2280,8 +2284,8 @@ PANGEA SCREENSHOTS SECTION
 
 .pangea-screenshots-main .feat-more-info .cta {
   background: transparent;
-  color: #003c54;
-  border-color: #003c54;
+  color: #41B6E6;
+  border-color: #41B6E6;
 }
 
 @media screen and (max-width: 767px) {
