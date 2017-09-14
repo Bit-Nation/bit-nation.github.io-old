@@ -1,4 +1,4 @@
-html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,pre,a,address,code,em,img,q,s,strong,b,u,i,center,ol,ul,li,form,label,table,tbody,tr,th,td,article,details,embed,footer,header,nav,section,time,video {
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, address, code, em, img, q, s, strong, b, u, i, center, ol, ul, li, form, label, table, tbody, tr, th, td, article, details, embed, footer, header, nav, section, time, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,7 +7,7 @@ html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,pre,a,address,code,em,img,q,s,stro
   vertical-align: baseline;
 }
 
-article,details,footer,header,nav,section {
+article, details, footer, header, nav, section {
   display: block;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 strong {
@@ -25,11 +25,11 @@ strong {
 }
 
 .custom-blue {
-    color: #41B6E6;
+  color: #41B6E6;
 }
 
 .custom-darker-blue {
-    color: #003c54;
+  color: #003c54;
 }
 
 ol,ul {
