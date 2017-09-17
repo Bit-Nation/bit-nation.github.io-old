@@ -818,6 +818,21 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   overflow-y: auto;
 }
 
+.modal #mce-EMAIL {
+  width: 100%;
+}
+
+.modal .mc-field-group > * {
+
+    display: block;
+    margin: 12px 0;
+
+}
+
+.modal label {
+  margin-bottom: 12px;
+}
+
 .modal .modal-body hr {
   margin: 20px 0;
   border: 0 none;
@@ -829,6 +844,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   display: block;
   margin: auto;
 }
+
 
 .modal .modal-body .form-group label,
 .modal .modal-body .form-group input {
@@ -845,7 +861,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   height: 38px;
   line-height: 38px;
   font-size: 11px;
-  margin-top: 30px;
+  margin-top: 8px;
   color: #FFFFFF;
 }
 
