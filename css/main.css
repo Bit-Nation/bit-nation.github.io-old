@@ -224,8 +224,29 @@ strong {
   width: 100%;
 }
 
+
+.main-content p {
+  margin: 1em 0;
+  font-weight: 300;
+}
+
+.main-content a {
+  color: #41B6E6;
+}
+
+.main-content h2 {
+  text-align: center;
+  margin: 1em 0;
+}
+
 .header {
   transition: all 0.2s linear;
+  padding: 15px 0;
+  background-color: rgba(65,182,230,0.8);
+}
+
+.header.main-page-header {
+  background-color: transparent;
   padding: 40px 0;
 }
 
@@ -268,7 +289,7 @@ strong {
   z-index: 9;
 }
 
-.header.header-animate {
+.header.main-page-header.header-animate {
   background: rgba(65, 182, 230, 0.8);
   padding: 10px 0;
 }
@@ -277,12 +298,12 @@ strong {
   background-color: rgba(65,182,230,0.1);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
-  min-height: 700px;
+  min-height: 100vh;
 }
 
 .middle-content {
-  /*padding-top: 132px;*/
+  padding-top: 132px;
+  padding-bottom: 80px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -1054,7 +1075,7 @@ img.normal-bitnation-logo {
     padding: 0 15px;
   }
 
-  .header {
+  .header.main-page-header {
     padding: 25px 0;
   }
 
@@ -1089,7 +1110,7 @@ img.normal-bitnation-logo {
   }
 
   .middle-content {
-    padding: 75px 0;
+    padding: 110px 0 50px;
     justify-content: center;
   }
 
@@ -1741,30 +1762,6 @@ button:disabled:hover {
   padding-top: 132px;
   padding-bottom: 50px;
   text-align: left;
-}
-
-.header {
-  background-color: rgba(65, 182, 230, 0.8);
-  padding: 15px 0;
-}
-
-.main-page-header {
-  background-color: transparent;
-  padding: 40px 0;
-}
-
-.main-content p {
-  margin: 1em 0;
-  font-weight: 300;
-}
-
-.main-content a {
-  color: #41B6E6;
-}
-
-.main-content h2 {
-  text-align: center;
-  margin: 1em 0;
 }
 
 .modal .information-text {
