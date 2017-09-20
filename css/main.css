@@ -760,7 +760,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
 .modal {
   max-width: 600px;
-  padding: 0;
+  padding: 30px 30px 20px;
   border-radius: 0;
   background: #1c1d21;
   box-shadow: none;
@@ -799,18 +799,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   font-size: 13px;
 }
 
-.modal .modal-header {
-  background: #000;
-  padding: 20px 20px 15px;
-}
-
-.modal .modal-header p {
-  text-transform: uppercase;
-  line-height: 22px;
-}
-
 .modal .modal-body {
-  padding: 20px 30px;
   height: 415px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -818,13 +807,12 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
 .modal #mce-EMAIL {
   width: 100%;
+  text-align: center;
 }
 
 .modal .mc-field-group > * {
-
     display: block;
-    margin: 12px 0;
-
+    margin: 10px 0;
 }
 
 .modal label {
@@ -859,7 +847,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   height: 38px;
   line-height: 38px;
   font-size: 11px;
-  margin-top: 8px;
+  margin: 10px 0;
   color: #FFFFFF;
 }
 
@@ -1954,9 +1942,6 @@ code {
     background-color: transparent;
   }
 
-  .modal .modal-body {
-    padding: 20px 15px;
-  }
 }
 
 .purchase-agreement-content {
