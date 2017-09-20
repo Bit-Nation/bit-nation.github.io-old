@@ -1778,16 +1778,6 @@ button:disabled:hover {
   font-size: 10px;
 }
 
-.info-icon {
-  background: url("../img/icon-info.png") no-repeat;
-  background-size: 100%;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
 .main-content ul {
   padding-left: 20px;
   list-style: disc;
