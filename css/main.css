@@ -463,10 +463,6 @@ strong {
   margin-bottom: 40px;
 }
 
-.news-box {
-  /*height:245px;*/
-}
-
 .news-section .row {
   display: flex;
   justify-content: space-between;
@@ -594,6 +590,11 @@ strong {
 
 .subscriber-section {
   padding: 60px 0;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .subscriber-section .form-group {
@@ -759,7 +760,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
 .modal {
   max-width: 600px;
-  padding: 0;
+  padding: 30px 30px 20px;
   border-radius: 0;
   background: #1c1d21;
   box-shadow: none;
@@ -798,18 +799,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   font-size: 13px;
 }
 
-.modal .modal-header {
-  background: #000;
-  padding: 20px 20px 15px;
-}
-
-.modal .modal-header p {
-  text-transform: uppercase;
-  line-height: 22px;
-}
-
 .modal .modal-body {
-  padding: 20px 30px;
   height: 415px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -817,13 +807,12 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 
 .modal #mce-EMAIL {
   width: 100%;
+  text-align: center;
 }
 
 .modal .mc-field-group > * {
-
     display: block;
-    margin: 12px 0;
-
+    margin: 10px 0;
 }
 
 .modal label {
@@ -858,7 +847,7 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   height: 38px;
   line-height: 38px;
   font-size: 11px;
-  margin-top: 8px;
+  margin: 10px 0;
   color: #FFFFFF;
 }
 
@@ -940,9 +929,9 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   overflow: hidden;
 }
 
-.buy-pat {
-  background-color: rgba(14, 14, 15, 0.68);
-  padding: 40px 35px;
+.buy-pat img {
+  width: 80%;
+  max-width: 240px;
 }
 
 .buy-pat .cta {
@@ -1777,16 +1766,6 @@ button:disabled:hover {
   font-size: 10px;
 }
 
-.info-icon {
-  background: url("../img/icon-info.png") no-repeat;
-  background-size: 100%;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
 .main-content ul {
   padding-left: 20px;
   list-style: disc;
@@ -1946,10 +1925,6 @@ code {
     width: 300px;
   }
 
-  .modal {
-    /*max-height: 100%;*/
-  }
-
   .scrollable-content::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 6px;
@@ -1967,9 +1942,6 @@ code {
     background-color: transparent;
   }
 
-  .modal .modal-body {
-    padding: 20px 15px;
-  }
 }
 
 .purchase-agreement-content {
@@ -2328,10 +2300,6 @@ TECHNOLOGIES SECTION
 
 .video-section-main .video-gradient {
   padding: 80px 0;
-}
-
-.video-section-main iframe {
-  /*padding-top:55px;*/
 }
 
 .video-section-main p {
