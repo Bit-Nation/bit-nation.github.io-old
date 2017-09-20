@@ -596,6 +596,11 @@ strong {
   padding: 60px 0;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .subscriber-section .form-group {
   position: relative;
 }
