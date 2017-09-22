@@ -23,6 +23,7 @@ TODO:
     <script src="js/jquery.countdown.js" type="text/javascript"></script>
     <!--custom stylesheet -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106469149-1"></script>
@@ -40,7 +41,7 @@ TODO:
 </head>
 
 <body>
-    <div class="main-outer text-center">
+    <div class="main-outer">
 
         <!-- Homepage Banner -->
         <div class="introduction-banner">
@@ -102,44 +103,49 @@ TODO:
             </div>
         </div>
 
-
         <!--BITNATION Features section-->
-        <div class="bitnation-features-main">
-            <div class="container">
-                <div class="features-description">
+        <div class="section bitnation-features-main">
+            <div class="row">
+                <div class="col-12 features-description">
                     <h2>The Pangea Jurisdiction</h2>
                 </div>
-                <div class="features-box-main">
-                    <div class="flex-parent clearfix row bottom-row">
-                        <div class="features-box col-4">
-                            <div class="icon-main">
-                                <i class="icon-quantum"></i>
-                            </div>
-                            <h4>Frontier Technology</h4>
-                            <div class="line"></div>
-                            <p>Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum.
-                            </p>
-                        </div>
-                        <div class="features-box col-4">
-                            <div class="icon-main">
-                                <i class="icon-intuitive"></i>
-                            </div>
-                            <h4>P2P Agreements</h4>
-                            <div class="line"></div>
-                            <p>Pangea is a decentralized market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise.</p>
-                        </div>
-                        <div class="features-box col-4">
-                            <div class="icon-main">
-                                <i class="icon-governance"></i>
-                            </div>
-                            <h4>Your Own Nations</h4>
-                            <div class="line"></div>
-                            <p>On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Descision Making Mechanism, write a Constitution and provide Governance Services to Citizens.</p>
-                        </div>
+            </div>
+            <div class="row flex-parent features-box-main">
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-quantum" class="icon"></i>
                     </div>
-                    <div class="feat-more-info">
-                        <a class='cta' href="https://docs.google.com/document/d/1lnbUKaCzy1F3yrI73bMoIOAqK9h5mwtwuA_1z9G2Cqg/edit" target="_blank">PANGEA WHITEPAPER 2017</a>
+                    <div class="features-box-title">
+                        <h4>Frontier Technology</h4>
                     </div>
+                    <div class="line"><span></span></div>
+                    <p>Pangea is a secure mesh network forming a distributed web, accessed through a smartphone-chat user friendly interface. Blockchain agnostic smart contract functionality powers the Pangea Jurisdiction, currently implemented with Ethereum.
+                    </p>
+                </div>
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-intuitive" class="icon"></i>
+                    </div>
+                    <div class="features-box-title">
+                        <h4>P2P Agreements</h4>
+                    </div>
+                    <div class="line"><span></span></div>
+                    <p>Pangea is a decentralized market for legal services. Create and execute peer-to-peer agreements seamlessly across the world, resolve disputes fairly and efficiently. Choose an arbitrator, or become an arbitrator in your field of expertise.</p>
+                </div>
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-governance" class="icon"></i>
+                    </div>
+                    <div class="features-box-title">
+                        <h4>Your Own Nations</h4>
+                    </div>
+                    <div class="line"><span></span></div>
+                    <p>On Pangea you can create your own Decentralised Borderless Voluntary Nation (DBVN). Choose your Code of Law and Descision Making Mechanism, write a Constitution and provide Governance Services to Citizens.</p>
+                </div>
+            </div>
+            <div class="row cta-row">
+                <div class="col-12">
+                    <a class='cta' href="https://docs.google.com/document/d/1lnbUKaCzy1F3yrI73bMoIOAqK9h5mwtwuA_1z9G2Cqg/edit" target="_blank">PANGEA WHITEPAPER 2017</a>
                 </div>
             </div>
         </div>
@@ -148,25 +154,27 @@ TODO:
 
         <!--PANGEA screenshots-->
         <div id="pangea-screens" class="section pangea-screenshots-main">
-            <div class="container">
-                <div class="section-title">
+            <div class="row">
+                <div class="col-12">
                     <h2 class="custom-darker-blue">Your Next Government In Your Hands</h2>
                 </div>
-                <div class="screenshots-container">
-                    <div class="screenshots-box">
-                        <img class="screenshot" src="img/ui-01.png">
-                    </div>
-                    <div class="screenshots-box">
-                        <img class="screenshot" src="img/ui-03.png">
-                    </div>
-                    <div class="screenshots-box">
-                        <img class="screenshot" src="img/ui-10.png">
-                    </div>
-                    <div class="screenshots-box">
-                        <img class="screenshot" src="img/ui-06.png">
-                    </div>
+            </div>
+            <div class="row screenshots-container">
+                <div class="col-3 screenshots-box">
+                    <img class="screenshot" src="img/ui-01.png">
                 </div>
-                <div class="feat-more-info custom-darker-blue">
+                <div class="col-3 screenshots-box">
+                    <img class="screenshot" src="img/ui-03.png">
+                </div>
+                <div class="col-3 screenshots-box">
+                    <img class="screenshot" src="img/ui-10.png">
+                </div>
+                <div class="col-3 screenshots-box">
+                    <img class="screenshot" src="img/ui-06.png">
+                </div>
+            </div>
+            <div class="row cta-row">
+                <div class="col-12 feat-more-info custom-darker-blue">
                     <a class='cta' href="https://expo.io/@danielfranca/bitnation" target="_blank">INSTALL PANGEA</a>
                 </div>
             </div>
@@ -177,101 +185,112 @@ TODO:
 
         <!--Technologies-->
         <div class="section technologies-main">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Technology Stack</h2>
-                </div>
-                <div class="technologies-container">
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-eth.png">
-                    </div>
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-go.png">
-                    </div>
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-ipfs.png">
-                    </div>
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-react.png">
-                    </div>
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-rsk.png">
-                    </div>
-                    <div class="tech-logo-box">
-                        <img class="tech-logo" src="img/tech-ssb.png">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Our Technology Stack</h2>
                     </div>
                 </div>
+            </div>
+            <div class="row technologies-container">
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-eth.png">
+                </div>
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-go.png">
+                </div>
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-ipfs.png">
+                </div>
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-react.png">
+                </div>
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-rsk.png">
+                </div>
+                <div class="col-2 tech-logo-box">
+                    <img class="tech-logo" src="img/tech-ssb.png">
+                </div>
+
             </div>
         </div>
 
 
 
         <!-- Teaser, put ANNA there -->
-        <div class="video-section-main text-left">
-            <div class="video-gradient">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <iframe width="100%" height="220" src="https://www.youtube.com/embed/FMaLbAS6VT0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col">
-                            <h2 class="text-left">BITNATION: Borderless | Decentralized | Voluntary</h2>
-                            <p class="custom-darker-blue">Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others.</p>
-                        </div>
-                    </div>
+        <div class="section video-section light-blue">
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/FMaLbAS6VT0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-6">
+                    <h2>BITNATION: Borderless | Decentralized | Voluntary</h2>
+                    <p>Bitnation is the world's first Decentralized Borderless Voluntary Nation (DBVN). Bitnation started in July 2014 and hosted the world’s first blockchain marriage, birth certificate, refugee emergency ID, World Citizenship, DBVN Constitution and more. The website proof-of-concept, including the blockchain ID and Public Notary, is used by tens of thousands of Bitnation Citizens and Embassies around the world. Bitnation is the winner of UNESCO’s Netexplo Award 2017, and has been featured by the Wall Street Journal, Bloomberg, BBC, CNN, WIRED, VICE, TechCrunch, The Economist, Russia Today among many others.</p>
                 </div>
             </div>
         </div>
 
         <!--Token distribution page main-->
-        <div id="token-sale" class="token-main">
-            <div class="container">
-                <div class="token-content">
-                    <div id="token-phase-1" class="token-phase-1">
-                        <div class="row top-row clearfix">
-                            <div class="col-4">
-                                <div class="buy-pat">
-                                    <img src="img/bitnation-token-logo.png">
-                                    <button id="buy-pat-tokens" class='cta'>GET PAT</button>
-                                </div>
-                            </div>
-                            <div class="col-8">
-                                <h2 class="custom-blue text-left">Pangea Arbitration Token (PAT)</h2>
-                                <p>The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token is proof-of-reputation for Citizens, issued when Citizens create a contract, successfully complete a contract or resolve a dispute attached to a contract. PAT is an algorithmic reputation token; an arbitration currency based on performance, rather than purchasing power, popularity, or attention.</p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row bottom-row clearfix">
-                            <div class="col-4">
-                                <div class="icon-main">
-                                    <i class="icon-market-demand"></i>
-                                </div>
-                                <h4>Secure and Transparent</h4>
-                                <p>PAT is an ERC20 compatible (Ethereum based) industry-standard token, easily integrated with wallets and exchanges. PAT code, the DBVN Multisignature code, and the Bitnation TSE Contract code has all been designed and audited by leading Solidity experts. All contracts are open source and can be found on our GitHub.</p>
-                            </div>
-                            <div class="col-4">
-                                <div class="icon-main">
-                                    <i class="icon-fair"></i>
-                                </div>
-                                <h4>Hard Capped</h4>
-                                <p>The PAT TSE is aimed to raise funds for the Pangea development and power Bitnation’s ecosystem. 34% of PAT will be sold during the TSE, including during the pre-sale. To avoid token price dilution, and make sure PAT increases in value as the Pangea software evolves and gains market adoption, the TSE is hard capped at 30 Million USD.</p>
-                            </div>
-                            <div class="col-4">
-                                <div class="icon-main">
-                                    <i class="icon-power"></i>
-                                </div>
-                                <h4>Powers Pangea</h4>
-                                <p>More than a third of PAT is reserved to power the Pangea Jurisdiction. Citizens garner non-tradable reputation tokens based on successful contract execution. Arbitrators and contracts also accumulate non-tradable tokens. Citizens are rewarded with PAT for accumulating non-tradable reputation tokens when milestones are reached.</p>
-                            </div>
-                        </div>
+        <div id="token-sale" class="section token-main">
+            <div id="token-phase-1" class="row token-phase-1">
+                <div class="col-4 buy-pat">
+                    <img src="img/bitnation-token-logo.png">
+                    <button id="buy-pat-tokens" class='cta'>GET PAT</button>
+                </div>
+                <div class="col-8 pat-info">
+                    <h2>Pangea Arbitration Token (PAT)</h2>
+                    <p>The Pangea Arbitration Token (PAT) is an ERC20 compatible in-app token for the Pangea Jurisdiction. The PAT token is proof-of-reputation for Citizens, issued when Citizens create a contract, successfully complete a contract or resolve a dispute attached to a contract. PAT is an algorithmic reputation token; an arbitration currency based on performance, rather than purchasing power, popularity, or attention.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row flex-parent features-box-main">
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-market-demand" class="icon"></i>
                     </div>
+                    <div class="features-box-title">
+                        <h4>Secure and Transparent</h4>
+                    </div>
+                    <div class="line"><span></span></div>
+                    <p>The PAT TSE is aimed to raise funds for the Pangea development and power Bitnation’s ecosystem. 34% of PAT will be sold during the TSE, including during the pre-sale. To avoid token price dilution, and make sure PAT increases in value as the Pangea software evolves and gains market adoption, the TSE is hard capped at 30 Million USD.</p>
+                </div>
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-fair" class="icon"></i>
+                    </div>
+                    <div class="features-box-title">
+                        <h4>Hard Capped</h4>
+                    </div>
+                        <div class="line"><span></span></div>
+                        <p>The PAT TSE is aimed to raise funds for the Pangea development and power Bitnation’s ecosystem. 10% of PAT is sold during the first month, and an additional 24% is then sold at a rate of 1% per month for 2 years. The TSE uses an auction model, where the token price is set by the market, based on demand and supply.</p>
+                </div>
+                <div class="col-4 features-box">
+                    <div class="icon-main">
+                        <i id="icon-power"class="icon"></i>
+                    </div>
+                    <div class="features-box-title">
+                        <h4>Powers Pangea</h4>
+                    </div>
+                    <div class="line"><span></span></div>
+                    <p>More than a third of PAT is reserved to power the Pangea Jurisdiction. Citizens garner non-tradable reputation tokens based on successful contract execution. Arbitrators and contracts also accumulate non-tradable tokens. Citizens are rewarded with PAT for accumulating non-tradable reputation tokens when milestones are reached.</p>
                 </div>
             </div>
         </div>
 
-        <div class="timeline-main">
-            <div class="container">
+        <div class="section timeline-main">
+            <div class="row">
                 <h2 class="custom-blue">The BITNATION Story</h2>
+            </div>
+            <div class="container">
                 <section class="timeline">
                     <ol>
                         <li>
@@ -365,48 +384,50 @@ TODO:
         </div>
 
 
-        <!--Social section-->
-        <div id="social" class="social-section">
-            <div class="container">
-                <h2>Enter BITNATION</h2>
-                <div class="social-icon-group">
-                    <a href='http://github.com/Bit-Nation' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-github"></i>
-                        </div>
-                        <p class="text-center">GitHub</p>
-                    </a>
-                    <a href='http://twitter.com/@MyBitnation' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-twitter"></i>
-                        </div>
-                        <p class="text-center">Twitter</p>
-                    </a>
-                    <a href='https://angel.co/bitnation' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-angel"></i>
-                        </div>
-                        <p class="text-center">AngelList</p>
-                    </a>
-                    <a href='http://slack.bitnation.co' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-slack"></i>
-                        </div>
-                        <p class="text-center">Slack</p>
-                    </a>
-                    <a href='https://www.facebook.com/MyBitnation' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-facebook"></i>
-                        </div>
-                        <p class="text-center">Facebook</p>
-                    </a>
-                    <a href='http://steemit.com/@bitnation' target="_blank" class="social-icons">
-                        <div class="icon-main">
-                            <i class="icon-steemit"></i>
-                        </div>
-                        <p class="text-center">Steemit</p>
-                    </a>
+        <!-- Social section -->
+        <div id="social" class="section social-section">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Enter BITNATION</h2>
                 </div>
+            </div>
+            <div class="row social-icon-group">
+                <a href='http://github.com/Bit-Nation' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-github" class="icon"></i>
+                    </div>
+                    <p>GitHub</p>
+                </a>
+                <a href='http://twitter.com/@MyBitnation' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-twitter" class="icon"></i>
+                    </div>
+                    <p>Twitter</p>
+                </a>
+                <a href='https://angel.co/bitnation' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-angel" class="icon"></i>
+                    </div>
+                    <p>AngelList</p>
+                </a>
+                <a href='http://slack.bitnation.co' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-slack" class="icon"></i>
+                    </div>
+                    <p>Slack</p>
+                </a>
+                <a href='https://www.facebook.com/MyBitnation' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-facebook" class="icon"></i>
+                    </div>
+                    <p>Facebook</p>
+                </a>
+                <a href='http://steemit.com/@bitnation' target="_blank" class="social-icons">
+                    <div class="icon-main">
+                        <i id="icon-steemit" class="icon"></i>
+                    </div>
+                    <p>Steemit</p>
+                </a>
             </div>
         </div>
 
