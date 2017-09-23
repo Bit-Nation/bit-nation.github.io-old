@@ -2293,12 +2293,15 @@ TECHNOLOGIES SECTION
   color: #ffffff;
 }
 
-.devcon-speakers .row > div {
-  margin: 0 15px;
+@media screen and (max-width: 767px) {
+  .devcon-speakers h3, .devcon-speakers .speaker-ph {
+    text-align: center;
+  }
 }
 
 .devcon-speakers img{
   border: solid 4px #41B6E6;
+  width: 140px;
 }
 
 #devcon-map {
