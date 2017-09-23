@@ -998,18 +998,8 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-.buy-pat img {
-  width: 80%;
-  max-width: 240px;
-||||||| merged common ancestors
-.buy-pat {
-  background-color: rgba(14, 14, 15, 0.68);
-  padding: 40px 35px;
-=======
 .buy-pat {
   text-align: center;
->>>>>>> speakers
 }
 
 .buy-pat img {
