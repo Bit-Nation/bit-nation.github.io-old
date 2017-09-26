@@ -329,7 +329,7 @@ strong {
   font-weight: 300;
 }
 
-.main-content a {
+.main-content p a {
   color: #41B6E6;
 }
 
@@ -2305,4 +2305,8 @@ TECHNOLOGIES SECTION
 
 #devcon-map {
   height: 300px;
+}
+
+.section.intro {
+  text-align: center;
 }
