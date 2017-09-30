@@ -2310,3 +2310,7 @@ TECHNOLOGIES SECTION
 .section.intro {
   text-align: center;
 }
+
+.btns .col-4 {
+  text-align: center;
+}
