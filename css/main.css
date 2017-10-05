@@ -520,7 +520,6 @@ strong {
 }
 
 .token-main {
-  background: url("../img/bg-token.png") no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -601,7 +600,6 @@ strong {
 }
 
 .social-section {
-  background: url("../img/bg-social.png") no-repeat;
   background-size: cover;
 }
 
