@@ -337,16 +337,10 @@ strong {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  .video-section h2, .pat-info h2 {
-    text-align: left;
-  }
-}
-
 .header {
   transition: all 0.2s linear;
   padding: 15px 0;
-  background-color: rgba(65,182,230,0.8);
+  background-color: #41B6E6;
 }
 
 .header.main-page-header {
@@ -396,12 +390,11 @@ strong {
 }
 
 .header.main-page-header.header-animate {
-  background: rgba(65, 182, 230, 0.8);
+  background: #41B6E6;
   padding: 10px 0;
 }
 
 .introduction-banner {
-  background-color: rgba(65,182,230,0.1);
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
@@ -519,26 +512,6 @@ strong {
   font-size: 13px;
 }
 
-.token-main {
-  background: url("../img/bg-token.png") no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.token-main .token-content {
-  padding: 90px 0;
-}
-
-.token-main .token-content h2 {
-  margin-bottom: 25px;
-}
-
-.token-main .token-content .date {
-  color: #E9E9EA;
-  margin-bottom: 10px;
-  font-size: 13px;
-}
-
 .news-section {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   background-color: #1C1D21;
@@ -600,11 +573,6 @@ strong {
   margin-top: 45px;
 }
 
-.social-section {
-  background: url("../img/bg-social.png") no-repeat;
-  background-size: cover;
-}
-
 .social-icon-group {
   justify-content: space-between;
 }
@@ -663,7 +631,7 @@ strong {
 }
 
 .subscriber-section {
-  padding: 60px 0;
+  text-align: center;
 }
 
 input {
@@ -2177,11 +2145,6 @@ code {
 /*************************
 PANGEA SCREENSHOTS SECTION
 *************************/
-
-.pangea-screenshots-main {
-  background: #ececec;
-}
-
 .screenshots-box {
   width: 25%;
   text-align: center;
@@ -2189,12 +2152,6 @@ PANGEA SCREENSHOTS SECTION
 
 .screenshot {
   width: 195px;
-}
-
-.pangea-screenshots-main .feat-more-info .cta {
-  background: transparent;
-  color: #003c54;
-  border-color: #003c54;
 }
 
 @media screen and (max-width: 767px) {
@@ -2234,10 +2191,6 @@ TECHNOLOGIES SECTION
 
 
 /* VIDEO SECTION */
-
-.video-section {
-  background-color: #41B6E6;
-}
 
 .video-section .row {
   display: flex;
