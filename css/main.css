@@ -333,7 +333,7 @@ strong {
   font-weight: 300;
 }
 
-.main-content p a {
+a {
   color: #41B6E6;
 }
 
@@ -371,7 +371,8 @@ strong {
 
 .header .navigation ul li {
   display: inline-block;
-  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .header .navigation ul li a {
@@ -380,6 +381,7 @@ strong {
   font-family: 'SourceCodePro';
   line-height: 50px;
   font-size: 15px;
+  padding: 0 5px;
 }
 
 .header .align-center {
@@ -2270,4 +2272,55 @@ TECHNOLOGIES SECTION
 
 .btns .col-4 {
   text-align: center;
+}
+
+.announcement .btn {
+  margin: 24px 0;
+}
+
+.announcement h3, .announcement ul {
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 24px 0;
+}
+
+.dropdown .icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: text-bottom;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #02050A;
+  min-width: 196px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  color: #41B6E6;
+}
+
+.dropdown:hover .cta {
+  border-bottom: none;
+  background-color: #02050A;
+  box-shadow: none;
+  transition: none;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border: 1px solid #FFFFFF;
+  border-top: none;
 }
