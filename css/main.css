@@ -386,7 +386,7 @@ a {
   padding-right: 10px;
 }
 
-.header .navigation ul li a {
+.header .navigation ul li a, .header .navigation ul li button {
   display: block;
   color: #F2F2F2;
   font-family: 'SourceCodePro';
@@ -2298,7 +2298,6 @@ TECHNOLOGIES SECTION
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 24px 0;
 }
 
 .dropdown .icon {
@@ -2310,30 +2309,53 @@ TECHNOLOGIES SECTION
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #02050A;
-  min-width: 196px;
+  min-width: 138px;
   z-index: 1;
+  right: 0;
+  background-color: rgba(65,182,230,0.5);
 }
 
 .dropdown-content a {
+  line-height: 40px !important;
+}
+
+.dropdown button {
   padding: 12px 16px;
   display: block;
   color: #41B6E6;
+  -webkit-appearance: none;
+  border-radius: 0;
+  margin: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.dropdown:hover .cta {
-  border-bottom: none;
-  background-color: #02050A;
-  box-shadow: none;
-  transition: none;
-}
-
-.dropdown-content a:hover {
-  text-decoration: underline;
+.dropdown:hover {
+  background-color: rgba(65,182,230,0.5);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  border: 1px solid #FFFFFF;
   border-top: none;
+}
+
+@media screen and (max-width:767px) {
+  .dropdown:hover {
+    background: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-top: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .header .navigation ul li button {
+    line-height: 40px;
+  }
 }
