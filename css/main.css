@@ -396,7 +396,6 @@ a {
 }
 
 .header .align-center {
-  height: 50px;
   line-height: 50px;
 }
 
@@ -2312,11 +2311,11 @@ TECHNOLOGIES SECTION
   min-width: 138px;
   z-index: 1;
   right: 0;
-  background-color: rgba(65,182,230,0.5);
+  background-color: #41B6E6;
 }
 
-.dropdown-content a {
-  line-height: 40px !important;
+.dropdown-content a:hover {
+  text-decoration: underline;
 }
 
 .dropdown button {
@@ -2332,7 +2331,7 @@ TECHNOLOGIES SECTION
 }
 
 .dropdown:hover {
-  background-color: rgba(65,182,230,0.5);
+  background-color: #41B6E6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -2341,8 +2340,8 @@ TECHNOLOGIES SECTION
 }
 
 @media screen and (max-width:767px) {
-  .dropdown:hover {
-    background: none;
+  .dropdown-content {
+    margin-bottom: 50px;
   }
 
   .dropdown:hover .dropdown-content {
@@ -2356,6 +2355,28 @@ TECHNOLOGIES SECTION
   }
 
   .header .navigation ul li button {
-    line-height: 40px;
+    line-height: 50px;
+  }
+
+  .open.header .navigation.open {
+    min-height: 100%;
+  }
+
+  .open .header .align-center {
+    height: auto;
+  }
+
+  .navigation.open {
+    position: static;
+  }
+  .header.open .align-center {
+    height: auto;
+  }
+  .header.sticky-header.main-page-header.open {
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
   }
 }

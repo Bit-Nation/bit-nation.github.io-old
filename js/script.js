@@ -47,7 +47,7 @@ $(document).ready(function () {
     $(".header").removeClass("open");
     $("body").removeClass("overflow-hidden");
   });
-
+  
   $(document).on("click", "#nav-icon", function () {
     $(this).toggleClass('open');
     $('.navigation').toggleClass('open');
