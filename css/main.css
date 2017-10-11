@@ -706,7 +706,6 @@ label {
 .footer {
   font-size: 12px;
   color: #003c54;
-  min-height: 100px;
   background: #41B6E6;
 }
 
@@ -2379,4 +2378,17 @@ TECHNOLOGIES SECTION
     top: 0;
     right: 0;
   }
+}
+
+.past-event {
+  padding: 5px;
+}
+
+.past-event img {
+  margin: auto;
+}
+
+.slick-dots li button::before,
+.slick-dots li.slick-active button::before {
+  color: #ffffff;
 }
