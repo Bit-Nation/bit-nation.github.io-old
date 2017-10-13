@@ -2392,3 +2392,8 @@ TECHNOLOGIES SECTION
 .slick-dots li.slick-active button::before {
   color: #ffffff;
 }
+
+.space {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
