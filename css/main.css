@@ -2243,6 +2243,18 @@ TECHNOLOGIES SECTION
 
 /* VIDEO SECTION */
 
+.video-section {
+  background-color: #41B6E6;
+}
+
+.video-section h2 {
+  color: #ffffff;
+}
+
+.video-section p {
+  color: #003c54;
+}
+
 .video-section .row {
   display: flex;
   justify-content: space-between;
