@@ -220,6 +220,10 @@ img {
   width: 25%;
 }
 
+.col-2_4 {
+  width: 20%;
+}
+
 .col-2 {
   width: 16.6667%;
 }
@@ -1431,6 +1435,29 @@ img.normal-bitnation-logo {
 
 .timeline .disabled {
   opacity: .5;
+}
+
+/* TEAM
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.team {
+  text-align: center;
+}
+
+.team .photo {
+  max-width: 120px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+.team h3 {
+  font-size: 17px;
+}
+
+.team .role {
+  font-size: 15px;
+  font-family: 'SourceCodePro';
+  color: #ffffff;
 }
 
 /* GENERAL MEDIA QUERIES
