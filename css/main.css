@@ -505,6 +505,7 @@ a {
   height: 35px;
   background-size: 100%;
   background-repeat: no-repeat;
+  color: #41B6E6;
 }
 
 #icon-quantum {
@@ -593,7 +594,8 @@ a {
   justify-content: space-between;
 }
 
-.social-icon-group .icon-main {
+.social-icon-group .icon-main,
+.counter .icon-main {
   width: 95px;
   height: 95px;
 }
@@ -603,7 +605,8 @@ a {
   color: #ffffff;
 }
 
-.social-icon-group .icon {
+.social-icon-group .icon,
+.counter .icon {
   width: 60px;
   height: 60px;
 }
@@ -640,6 +643,37 @@ a {
   width: 60px;
   height: 60px;
   background-image: url("../img/icon-fb.png");
+}
+
+.counter {
+  text-align: center;
+  font-family: 'SourceCodePro';
+}
+
+.counter .number {
+  color: #41B6E6;
+  font-size: 3em;
+}
+
+.counter .description {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.icon-citizens {
+  background-image: url("../img/icon-citizens.png");
+}
+
+.icon-contributors {
+  background-image: url("../img/icon-contributors.png");
+}
+
+.icon-code {
+  background-image: url("../img/icon-code.png");
+}
+
+.icon-world {
+  background-image: url("../img/icon-world.png");
 }
 
 .social-icons p {
@@ -2396,4 +2430,8 @@ TECHNOLOGIES SECTION
 .space {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.conter .fa {
+  display: block;
 }

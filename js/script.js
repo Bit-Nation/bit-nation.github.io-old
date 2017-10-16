@@ -85,5 +85,10 @@ $(document).ready(function () {
   $("#token-purchase-agreement-continue").click(function() {
       top.location.href = "instructions";
   });
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
 });
 
