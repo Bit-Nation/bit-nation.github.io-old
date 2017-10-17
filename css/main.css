@@ -1452,12 +1452,15 @@ img.normal-bitnation-logo {
 
 .team h3 {
   font-size: 17px;
+  padding-bottom: 0;
+  color: #ffffff;
+  line-height: 1.2em;
 }
 
 .team .role {
   font-size: 15px;
   font-family: 'SourceCodePro';
-  color: #ffffff;
+  line-height: 1.2em;
 }
 
 /* GENERAL MEDIA QUERIES
