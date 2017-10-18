@@ -2346,7 +2346,10 @@ TECHNOLOGIES SECTION
 
 .devcon-speakers img{
   border: solid 4px #41B6E6;
+  border-radius: 50%;
   width: 140px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 #devcon-map {
