@@ -178,7 +178,7 @@ img {
   .row > div:first-of-type {
     margin-top: 0;
   }
-  
+
   .row > div:last-of-type {
     margin-bottom: 0;
   }
@@ -511,6 +511,11 @@ a {
   background-repeat: no-repeat;
   color: #41B6E6;
 }
+.icon-contributors-group {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
 
 #icon-quantum {
   background-image: url("../img/icon-quantum.png");
@@ -624,11 +629,28 @@ a {
   height: 64px;
   background-image: url("../img/icon-git.png");
 }
+#icon-github-small {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icon-git.png");
+}
 
 #icon-twitter {
   width: 60px;
   height: 60px;
   background-image: url("../img/icon-twitter.png");
+}
+
+#icon-twitter-small {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icon-twitter.png");
+}
+
+#icon-linkedin-small {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icon-linkedin.png");
 }
 
 #icon-angel {
