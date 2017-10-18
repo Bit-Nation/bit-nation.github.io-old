@@ -1474,9 +1474,12 @@ img.normal-bitnation-logo {
   max-height: 50px;
 }
 
-#e-residency,
+#e-residency {
+  max-height: 70px;
+}
+
 #abdk {
-  max-height: 80px;
+  max-height: 60px;
 }
 
 #exosphere {
