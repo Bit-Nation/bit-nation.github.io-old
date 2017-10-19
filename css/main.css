@@ -1462,7 +1462,7 @@ img.normal-bitnation-logo {
   line-height: 1.2em;
 }
 
-/* TEAM
+/* PARTNERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logos-partners {
@@ -2241,6 +2241,17 @@ code {
   }
 }
 
+/*************************
+TOKEN SALE SECTION
+*************************/
+
+#token-sale {
+  background: url('/img/bg-token.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /*************************
 PANGEA SCREENSHOTS SECTION
