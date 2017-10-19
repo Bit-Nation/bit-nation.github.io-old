@@ -678,12 +678,12 @@ a {
 
 .counter .number {
   color: #41B6E6;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .counter .description {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .icon-citizens {
@@ -700,6 +700,10 @@ a {
 
 .icon-world {
   background-image: url("../img/icon-world.png");
+}
+
+.icon-notary {
+  background-image: url("../img/icon-notary.png");
 }
 
 .social-icons p {
@@ -1116,11 +1120,6 @@ img.normal-bitnation-logo {
     height: auto;
   }
 
-  .token-main {
-    background-position: center center;
-    background-size: cover;
-  }
-
   .header.open {
     background-color: #41b6e6;
   }
@@ -1494,12 +1493,19 @@ img.normal-bitnation-logo {
 }
 
 .logo-partner img {
+  max-height: 50px;
+}
+
+#e-residency {
+  max-height: 70px;
+}
+
+#abdk {
   max-height: 60px;
 }
 
-#e-residency,
-#abdk {
-  max-height: 80px;
+#exosphere {
+  max-height: 40px;
 }
 
 /* GENERAL MEDIA QUERIES
