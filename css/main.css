@@ -1471,19 +1471,15 @@ img.normal-bitnation-logo {
 }
 
 .logo-partner img {
-  max-height: 50px;
-}
-
-#e-residency {
-  max-height: 70px;
-}
-
-#abdk {
   max-height: 60px;
 }
 
-#exosphere {
-  max-height: 40px;
+#abdk {
+  max-height: 70px;
+}
+
+#e-residency {
+  max-height: 80px;
 }
 
 /* GENERAL MEDIA QUERIES
