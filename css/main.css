@@ -178,7 +178,7 @@ img {
   .row > div:first-of-type {
     margin-top: 0;
   }
-  
+
   .row > div:last-of-type {
     margin-bottom: 0;
   }
@@ -512,6 +512,13 @@ a {
   color: #41B6E6;
 }
 
+.team-social-icons {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
 #icon-quantum {
   background-image: url("../img/icon-quantum.png");
 }
@@ -604,6 +611,7 @@ a {
   height: 95px;
 }
 
+
 .social-section .social-icon-group p {
   font-size: 13px;
   color: #ffffff;
@@ -615,38 +623,42 @@ a {
   height: 60px;
 }
 
-#icon-steemit {
-  background-image: url("../img/icon-steemit.png");
-}
-
-#icon-github {
+.social-section .icon {
   width: 64px;
   height: 64px;
-  background-image: url("../img/icon-git.png");
 }
 
-#icon-twitter {
-  width: 60px;
-  height: 60px;
-  background-image: url("../img/icon-twitter.png");
+.icon.icon-small {
+  width: 24px;
+  height: 24px;
 }
 
-#icon-angel {
-  width: 60px;
-  height: 60px;
-  background-image: url("../img/icon-angel.png");
+i.steemit {
+  background-image: url("../img/icon-steemit.svg");
 }
 
-#icon-slack {
-  width: 64px;
-  height: 64px;
-  background-image: url("../img/icon-slack.png");
+i.github {
+  background-image: url("../img/icon-github.svg");
 }
 
-#icon-facebook {
-  width: 60px;
-  height: 60px;
-  background-image: url("../img/icon-fb.png");
+i.twitter {
+  background-image: url("../img/icon-twitter.svg");
+}
+
+i.linkedin {
+  background-image: url("../img/icon-linkedin.svg");
+}
+
+i.angellist {
+  background-image: url("../img/icon-angellist.svg");
+}
+
+i.slack {
+  background-image: url("../img/icon-slack.svg");
+}
+
+i.facebook {
+  background-image: url("../img/icon-facebook.svg");
 }
 
 .counter {
