@@ -512,13 +512,6 @@ a {
   color: #41B6E6;
 }
 
-.team-social-icons {
-  padding-top: 5px;
-  padding-bottom: 0px;
-  display: flex;
-  justify-content: center;
-}
-
 #icon-quantum {
   background-image: url("../img/icon-quantum.png");
 }
@@ -611,6 +604,16 @@ a {
   height: 95px;
 }
 
+.team-social-icons {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-icons .icon {
+  margin: 0 2.5px;
+}
 
 .social-section .social-icon-group p {
   font-size: 13px;
