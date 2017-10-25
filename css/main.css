@@ -287,7 +287,7 @@ a {
   text-decoration: none;
 }
 
-p.text-center, .text-center p {
+.text-center, p.text-center, .text-center p {
   text-align: center;
 }
 
@@ -757,7 +757,6 @@ input[type="text"]:focus,input[type="email"]:focus {
 label {
   font-size: 16px;
   margin-right: 20px;
-  color: #ffffff;
 }
 
 .footer {
@@ -960,10 +959,6 @@ div#terms-and-conditions div.content p,div#privacy-policy div.content p {
 }
 
 .modal .modal-body .cta {
-  width: 130px;
-  height: 38px;
-  line-height: 38px;
-  font-size: 11px;
   margin: 10px 0;
   color: #FFFFFF;
 }
@@ -2524,4 +2519,22 @@ TECHNOLOGIES SECTION
 
 .conter .fa {
   display: block;
+}
+
+.announcement, .disclaimer {
+  text-transform: uppercase;
+  color: #41B6E6;
+  text-align: center;
+}
+
+.cta.featured {
+  background-color: #41B6E6;
+}
+
+.cta.full-width {
+  width: 100%;
+}
+
+.white {
+  color: #ffffff;
 }
