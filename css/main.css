@@ -443,7 +443,7 @@ a {
 }
 
 .middle-content h1 {
-  margin: 35px 0 75px;
+  margin: 20px 0;
 }
 
 .middle-content .cta-group .cta {
@@ -1078,16 +1078,12 @@ hr {
 }
 
 img.normal-bitnation-logo {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
   .header .logo a img {
     height: 45px;
-  }
-
-  img.normal-bitnation-logo {
-    margin-bottom: 0px;
   }
 
   .buy-pat .cta {
@@ -1170,10 +1166,6 @@ img.normal-bitnation-logo {
   .middle-content .cta-group .cta {
     width: 100%;
     margin-bottom: 20px;
-  }
-
-  .middle-content h1 {
-    margin: 45px 0 55px;
   }
 
   .bitnation-features-main .features-box-main {
@@ -2537,4 +2529,8 @@ TECHNOLOGIES SECTION
 
 .white {
   color: #ffffff;
+}
+
+#presale-open {
+  margin-bottom: 30px;
 }
