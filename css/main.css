@@ -447,7 +447,7 @@ a {
 }
 
 .middle-content .cta-group .cta {
-  width: 165px;
+  min-width: 165px;
 }
 
 .middle-content .cta-group .cta {
@@ -2513,7 +2513,7 @@ TECHNOLOGIES SECTION
   display: block;
 }
 
-.announcement, .disclaimer {
+.notice, .disclaimer {
   text-transform: uppercase;
   color: #41B6E6;
   text-align: center;
