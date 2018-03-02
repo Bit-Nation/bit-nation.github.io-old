@@ -1474,12 +1474,28 @@ font-family: 'SourceCodePro';
 line-height: 1.2em;
 }
 
+.team-container {
+width: 100%;
+max-width: 930px;
+padding: 25px 30px;
+margin: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.team-member {
+width: 156px;
+padding: 15px;
+}  
+
 /* PARTNERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logos-partners {
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 }
 
 .logo-partner {
@@ -1488,8 +1504,9 @@ text-align: center;
 
 .logo-partner img {
 max-height: 60px;
+margin: 15px;
 }
-
+  
 #abdk {
 max-height: 70px;
 }
@@ -1498,6 +1515,10 @@ max-height: 70px;
 max-height: 80px;
 }
 
+#liberaland {
+max-height: 50px;
+}  
+  
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
