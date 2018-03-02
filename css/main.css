@@ -1483,13 +1483,19 @@ img.normal-bitnation-logo {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logos-partners {
-  justify-content: center;
+  width: 100%;
+  max-width: 930px;
+  padding: 25px 30px;
+  margin: auto;
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .logo-partner {
   text-align: center;
+  padding: 10px;
 }
 
 .logo-partner img {
